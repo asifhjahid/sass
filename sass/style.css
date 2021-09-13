@@ -6,6 +6,22 @@
           box-sizing: border-box;
 }
 
+#about p {
+  font-size: 16px;
+  text-align: center;
+  color: #837979;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 0 4px 4px;
+}
+
+#desc p {
+  font-size: 14px;
+  text-align: left;
+  color: #837979;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 0 4px 4px;
+}
+
 header {
   background-color: #b4f09c;
 }

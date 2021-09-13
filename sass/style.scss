@@ -1,7 +1,20 @@
 @import "reset";
 @import "variables";
 
+@mixin para-style($size,$style) {
+    font-size: $size;
+    text-align: $style;
+    color: rgb(131, 121, 121);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 0 4px 4px;
+}
 
+#about p{
+    @include para-style(16px,center);
+}
+#desc p{
+    @include para-style(14px, left);
+}
 
 
 
