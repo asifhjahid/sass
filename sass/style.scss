@@ -1,7 +1,51 @@
+//color variables declarations
+$header-bgcolor:#b4f09c;
+$main-bgcolor:#9cf0f0;
+$footer-bgcolor:#a0a873;
+
+$para-fontSize:1rem;
+
+
 /* browser reset code  */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+header{
+    background-color: $header-bgcolor;
+}
+
+//nav style
+
+nav{
+    margin-top: 10px;
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            margin: 10px 8px;
+            a{
+                text-decoration: none;
+                color: rgb(100, 70, 70);
+                padding: 10px;
+                transition: all .2s ease-in-out;
+                border-radius: 10px;
+            }
+            a:hover{
+                background-color: #000;
+                color: #fff;
+            }
+        }
+    }
+}
+main{
+    background-color: $main-bgcolor;
+}
+footer{
+    background-color: $footer-bgcolor;
+}
+#about{
+    font-size: $para-fontSize;
 }
