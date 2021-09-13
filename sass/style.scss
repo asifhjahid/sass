@@ -16,7 +16,24 @@
     @include para-style(14px, left);
 }
 
-
+.btn{
+    padding: 10px 12px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 10px;
+}
+.about-btn{
+    @extend .btn;
+    background-color: crimson;
+}
+.desc-btn{
+    @extend .btn; 
+    background-color: rgb(83, 9, 112);
+}
 
 
 header{
